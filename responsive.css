@@ -1,0 +1,72 @@
+.checkbtn{
+    color: rgb(252, 252, 249);
+    font-size: 25px;
+    margin-right: 20px;
+    padding: 4px 5px 1px 5px;
+    display: none;
+    border-radius: 5px;
+    border: 2px solid rgb(3, 182, 253);
+}
+#check{
+    display: none;
+}
+@media (max-width:576px) {
+     .navlinks{
+         background-color: rgb(8, 8, 7);
+        position: absolute;
+        top:90px;
+        flex-direction: column;
+        display: none;
+        height: 200px;
+        width: 100%;
+     }
+     .navlinks li{
+        /* background-color: ; */
+        height: 24.5%;
+        width: 100%;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .navlinks li:hover{
+        background-color:  rgb(11, 196, 252);
+     }
+     .checkbtn{
+         display: block;
+     }
+     #check:checked~.navlinks{
+         display: flex;
+     }
+      .content{
+          height: 70%;
+          width: 70%;
+          padding: 80px 48px;
+      }
+     .content h1{
+         font-size: 30px;
+         padding: 0px 20px;
+     }
+     .content p{
+         font-size: 15px;
+         padding: 10px 0px;
+        
+     }
+     .content button {
+         font-size: 10px;
+         padding: 5px 0;
+         margin-right: 50px;
+     }
+     .cardContainer{
+         width: 75%;
+         margin-right: 10px;
+     }
+     .boxContainer{
+         width: 100%;
+         font-size: 7px;
+    }
+    .card{
+         /* margin-right: 30%; */
+    }
+     
+     
+ }
